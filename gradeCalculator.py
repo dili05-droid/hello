@@ -12,11 +12,13 @@ mark3 = float(input("Enter marks for Subject 3: "))
 average = (mark1 + mark2 + mark3) / 3
 
 # Display results
+print("----------------------------")
 print(f"\nStudent Name: {student_name}")
 print(f"Subject 1: {mark1}")
 print(f"Subject 2: {mark2}")
 print(f"Subject 3: {mark3}")
 print(f"Average: {average:.2f}")
+print("----------------------------")
 
 # Check pass/fail
 if average >= 40:

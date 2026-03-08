@@ -12,7 +12,7 @@ mark3 = float(input("Enter marks for Subject 3: "))
 average = (mark1 + mark2 + mark3) / 3
 
 # Display results
-
+print("------------------------------")
 print(f"\nStudent Name: {student_name}")
 print(f"Subject 1: {mark1}")
 print(f"Subject 2: {mark2}")
